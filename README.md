@@ -1,16 +1,11 @@
-# Minecraft Forge 1.20.1 starter mod
+# Friend humanoid mob
 
-A minimal Forge mod project targeting Minecraft 1.20.1 and Forge 47.2.0. It currently registers the mod entry point only; tell me what features you want next and we can add them before building.
+The mod now registers a friendly, non-hostile humanoid mob named **Friend**, rendered with the standard Minecraft player model. A Friend Spawn Egg is available in the Spawn Eggs creative tab.
 
-## Requirements
+## Skin texture
 
-- Java 17 JDK
-- Gradle 8.1.1 or newer (ForgeGradle will resolve the Minecraft and Forge dependencies)
+Place the 64×64 Minecraft skin PNG at:
 
-## Open the project
+`src/main/resources/assets/minecraftmod/textures/entity/friend.png`
 
-Import this repository as a Gradle project in IntelliJ IDEA or Eclipse. Gradle will download the declared Forge/Minecraft dependencies during project sync. No build or compilation has been run.
-
-For command-line setup, with Gradle installed, run `gradle genIntellijRuns` or `gradle genEclipseRuns` for your IDE. To launch a development client later, use the generated `runClient` task. Do not run a build task until you're ready to compile.
-
-The Forge and Minecraft dependency artifacts are resolved by Gradle rather than checked into the repository.
+The chat image preview is not available to the repository file-writing tool as a PNG asset, so that texture still needs to be added from the original skin file. Once the PNG is there, Friend will use it automatically. No build or compilation has been run.

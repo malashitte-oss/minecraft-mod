@@ -1,3 +1,4 @@
 {
-  "item.minecraftmod.example_item": "Example Item"
+  "entity.minecraftmod.friend": "Friend",
+  "item.minecraftmod.friend_spawn_egg": "Friend Spawn Egg"
 }
